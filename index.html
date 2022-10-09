@@ -8,27 +8,52 @@
 
     <!-- ======== CSS ======== -->
     <link rel="stylesheet" href="/style/style.css">
-    <link rel="stylesheet" href="/style/color-1.css">
+    <link rel="stylesheet" href="style/skins/color-1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 
 </head>
 <body>
     <!--  ======== CONTAINER PRINCIPAL ========  -->
-
     <div class="main-container">
-        <!--  ======== COMEÇO ========  -->
+        <!--  ======== ASIDE COMEÇO ========  -->
         <div class="aside">
-            aside
+            <div class="logo">
+                <a href="#"><span>D</span>iego<span>T</span>orres</a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fa fa-user"></i> Sobre</a></li>
+                <li><a href="#"><i class="fa fa-list"></i> Serviços</a></li>
+                <li><a href="#"><i class="fa fa-briefcase"></i> Portifólio</a></li>
+                <li><a href="#"><i class="fa fa-comments"></i> Contatos</a></li>
+
+            </ul>
         </div>
-        <!--  ======== FIM ========  -->
+        <!--  ========  ASIDE FIM ========  -->
         
         <!--  ======== CONTENT PRINCIPAL ========  -->
         <div class="main-content">
             <!--  ======== SEÇÃO HOME INICIO ========  -->
             <section class="home section">
-                HOME
-
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info padd-15">
+                            <h3 class="hello">Olá, meu nome é <span class="name">Diego Torres</span></h3>
+                            <h3 class="my-profession">Eu sou um <span class="typing">Desenvolvedor Web</span></h3>
+                            <p>Formado em Análise e Desenvolvimento de Sistemas, estudante de Engenharia de Software, venho estudando
+                                para me desenvolver mais dia a dia.
+                            </p>
+                            <a href="#contact" class="btn hire-me">Entre em Contato</a>
+                        </div>
+                        <div class="home-img padd-15">
+                            <img src="/style/Assets/diego.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--  ======== SEÇÃO HOME FIM ========  -->
@@ -48,6 +73,6 @@
 
     <!--  ======== JAVASCRIPT  ========  -->
 
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
