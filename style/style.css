@@ -67,7 +67,25 @@ ul{
 
 }
 
-/* aside */
+.btn{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    color: white;
+    border-radius: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    border: none;
+    background: var(--skin-color);
+    transition: all 0.3s ease;
+
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+/* aside ===== esta é a aba onde ficam os links */ 
 .aside{
     width: 270px;
     background-color: var(--bg-black-100);
@@ -101,7 +119,7 @@ ul{
 
 .aside .logo a span{
     font-family: 'Clicker Script', cursive;
-    font-family: 40px;
+    font-size: 40px;
 }
 
 .aside .logo a::before{
@@ -125,6 +143,8 @@ ul{
     top: 0;
     right: 0;
 }
+
+/* painel de navegação entre home, sobre, contatos e tudo mais */
 
 .aside .nav-toggler{
     height: 40px;
@@ -201,7 +221,7 @@ ul{
     margin-right: 15px;
 }
 
-/* home */
+/* home aqui é a área onde fica a minha foto */
 
 .home{
     min-height: 100vh;
@@ -215,13 +235,66 @@ ul{
     
 }
 
+h3.hello{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+h3.hello span{
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+
+h3.my-profession{
+    font-size: 30px;
+    margin: 15px 0;
+
+}
+
+.home-info p{
+    margin-bottom: 70px;
+    font-size: 20px;
+    color: var(--text-black-700);
+}
+
+.typing{
+    color: var(--skin-color);
+}
+
 .home .home-img{
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
     position: relative;
 }
+.home-img::after{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 60px;
+    bottom: -20px;
+
+}
+
+.home-img::before{
+    content: '';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: 60px;
+    top: -30px;
+
+}
 
 .home .home-img img{
+    margin: auto;
+    border-radius: 5px;
     height: 300px;
 }
