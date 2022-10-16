@@ -12,7 +12,9 @@
     transform: translateX(100%);
 }
 
-.style-switcher.open
+.style-switcher.open{
+    transform: translateX(-25px);
+}
 
 .style-switcher .s-icon{
     position: absolute;
@@ -55,6 +57,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .style-switcher .colors span{

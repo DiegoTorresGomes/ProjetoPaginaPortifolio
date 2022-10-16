@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <title>Diego Portifólio</title>
     <!-- ======== CSS ======== -->
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="style/skins/color-1.css">
@@ -17,10 +17,7 @@
     <link rel="stylesheet" href="style/skins/color-4.css" class="alternate-style" title="color-4" disabled>
     <link rel="stylesheet" href="style/skins/color-5.css" class="alternate-style" title="color-5" disabled>
     <link rel="stylesheet" href="/style/style-switcher.css">
-    <title>Diego Portifólio</title>
-
-
-
+    
 </head>
 <body>
     <!--  ======== CONTAINER PRINCIPAL ========  -->
@@ -34,11 +31,11 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i> Sobre</a></li>
-                <li><a href="#"><i class="fa fa-list"></i> Serviços</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i> Portifólio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i> Contatos</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#sobre"><i class="fa fa-user"></i> Sobre</a></li>
+                <li><a href="#atividades"><i class="fa fa-list"></i> Atividades</a></li>
+                <li><a href="#portifolio"><i class="fa fa-briefcase"></i> Portifólio</a></li>
+                <li><a href="#contato"><i class="fa fa-comments"></i> Contatos</a></li>
 
             </ul>
         </div>
@@ -47,7 +44,7 @@
         <!--  ======== CONTENT PRINCIPAL ========  -->
         <div class="main-content">
             <!--  ======== SEÇÃO HOME INICIO ========  -->
-            <section class="home section">
+            <section class="home section" id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -67,7 +64,7 @@
 
             <!--  ======== SEÇÃO HOME FIM ========  -->
             <!--  ======== SEÇÃO SOBRE INICIO ========  -->
-            <section class="about section">
+            <section class="about section" id="sobre">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -254,11 +251,11 @@
             </section>
             <!--  ======== SEÇÃO SOBRE FIM ========  -->
             <!--  ======== SEÇÃO SERVIÇOS INICIO ========  -->
-            <section class="service section">
+            <section class="service section" id="atividades">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
-                            <h2>Services</h2>
+                            <h2>Atividades</h2>
                         </div>
                     </div>
                     <div class="row">
@@ -345,7 +342,7 @@
             </section>
             <!--  ======== SEÇÃO SERVIÇOS FIM ========  -->
             <!--  ======== SEÇÃO PORTIFOLIO INICIO ========  -->
-            <section class="portifolio section">
+            <section class="portifolio section" id="portifolio">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -399,7 +396,7 @@
             </section>
             <!--  ======== SEÇÃO PORTIFOLIO FIM ========  -->
             <!--  ======== SEÇÃO CONTATO INICIO ========  -->
-            <section class="contact section">
+            <section class="contact section" id="contato">
                 <div class="container">
                     <div class="row">
                         <div class="section-title padd-15">
@@ -489,9 +486,9 @@
             <i class="fas fa-cog fa-spin"></i>
         </div>
         <div class="day-night s-icon">
-            <i class="fas fa-moon"></i>
+            <i class="fas "></i>
         </div>
-        <h4>Mude a cor da Página.</h4>
+        <h4>CORES</h4>
         <div class="colors">
             <span class="color-1" onclick="setActiveStyle('color-1')"></span>
             <span class="color-2" onclick="setActiveStyle('color-2')"></span>
@@ -502,7 +499,7 @@
     </div>
     <!--  ======== TIPOS DE ESTILOS FIM ========  -->
     <!--  ======== JAVASCRIPT  ========  -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="./js/script.js"></script>
     <script src="./js/style-switcher.js"></script>
 </body>
