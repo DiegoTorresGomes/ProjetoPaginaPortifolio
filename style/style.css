@@ -889,15 +889,14 @@ h3.my-profession{
 }
 
 @media (max-width: 519px){
-    .home-info h3, p{
-        font-size: 23px;
+    .home-info h3{
+        font-size: 20px;
     }
 
-    .info-item{
-        flex: 0 0 50%;
-        display: block;
-        margin: 0;
+    .home-info p{
+        font-size: 18px;
     }
-    
+
+  
 
 }
