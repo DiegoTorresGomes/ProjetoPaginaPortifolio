@@ -332,7 +332,7 @@ h3.my-profession{
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 60px;
-    bottom: -10px;
+    bottom: -1vh;
 
 }
 
@@ -341,8 +341,8 @@ h3.my-profession{
     position: absolute;
     height: 80px;
     width: 80px;
-    border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
+    border-top: 10px solid var(--skin-color);
     left: 60px;
     top: -30px;
 
@@ -857,7 +857,7 @@ h3.my-profession{
     }
 }
 
-@media (max-width: 1040px){
+@media (max-width: 1000px){
     .contact .contact-info-item,
     .portifolio .portifolio-item,
     .service .service-item{
