@@ -399,7 +399,7 @@ h3.my-profession{
 
 .about .about-content .personal-info .info-item p{
     font-weight: 600;
-    padding: 10px 0;
+    padding: 15px;
     font-size: 16px;
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
@@ -408,8 +408,9 @@ h3.my-profession{
 .about .about-content .personal-info .info-item p span{
     font-weight: 400;
     color: var(--text-black-700);
-    margin-left: 4px;
-    display: inline-block;
+    margin-left: 3px;
+    display:block;
+    overflow:auto;
 }
 
 .about .about-content .personal-info .buttons{
@@ -885,4 +886,18 @@ h3.my-profession{
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+
+@media (max-width: 519px){
+    .home-info h3, p{
+        font-size: 23px;
+    }
+
+    .info-item{
+        flex: 0 0 50%;
+        display: block;
+        margin: 0;
+    }
+    
+
 }

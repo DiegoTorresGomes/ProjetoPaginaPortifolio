@@ -101,7 +101,7 @@
                                             <p>E-mail : <span>diegotorresgomes@hotmail.com</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>Escolaridade : <span>Formado em ADS</span></p>
+                                            <p>Escolaridade : <span>Formado em Análise e Desenvolvimento de Sistemas</span></p>
                                         </div>
                                         <div class="info-item padd-15">
                                             <p>Escolaridade : <span>Engenharia de Software</span></p>
@@ -115,8 +115,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">Entre em Contato</a>
+                                            <a href="./DIEGO TORRES GOMES - Curriculum DEV.docx" class="btn">Download CV</a>
+                                            <a href="https://wa.me/5521982200339" class="btn hire-me">Entre em Contato</a>
                                         </div>
                                     </div>
                                 </div>
@@ -438,46 +438,50 @@
                     </div>
                     <h3 class="contact-title padd-15">ME ENVIE UM EMAIL</h3>
                     <h4 class="contact-sub-title padd-15">ESTOU ANSIOSO PELA SUA MENSAGEM.</h4>
-                    <!--  ======== FORMULÁRIO DE CONTATO ========  -->
-                    <div class="row">
-                        <div class="contact-form padd-15">
-                            <div class="row">
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
+                        <!--  ======== FORMULÁRIO DE CONTATO ========  -->
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <div class="row">
+                            <div class="contact-form padd-15">
+                                <div class="row">
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Nome Completo" maxlength="40" minlength="3" autocomplete="off" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-item col-6 padd-15">
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="E-mail" maxlength="30" minlength="6" autocomplete="off" required>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="E-mail">
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Assunto" maxlength="60" minlength="5" autocomplete="off" required>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Assunto">
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <div class="form-group">
+                                            <textarea name="Mensagem" class="form-control" rows="10" maxlength="600" placeholder="Mensagem" minlength="10" autocomplete="off" required></textarea>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Mensagem"></textarea>
+                                <div class="row">
+                                    <div class="form-item col-12 padd-15">
+                                        <button class="button" type="submit">
+                                            <span class="send">Mensagem Enviada</span>
+                                            <i class="ri-send-plane-fill plane"></i>
+                                            <span class="sent">Enviar Mensagem</span>
+                                        </button>
+                                        <input type="hidden" name="accessKey" value="483a3541-91b8-46e2-8fb4-48fd53908478">
+                                        <input type="hidden" name="redirectTo" value="https://www.linkedin.com/in/diego-torres-gomes/">
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button class="button">
-                                        <span class="send">Mensagem Enviada</span>
-                                        <i class="ri-send-plane-fill plane"></i>
-                                        <span class="sent">Enviar Mensagem</span>
-                                    </button>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
             </section>
             <!--  ======== SEÇÃO CONTATO FIM ========  -->
