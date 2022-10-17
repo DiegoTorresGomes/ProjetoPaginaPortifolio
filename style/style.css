@@ -128,7 +128,7 @@ ul{
     white-space: nowrap;
     border: none;
     background: var(--skin-color);
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 
 }
 
@@ -471,8 +471,10 @@ h3.my-profession{
 
 }
 
+/* experiencia e educação */
+
 .about .about-content .education,
-.about .about-content .exprerience{
+.about .about-content .experience{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
@@ -756,10 +758,90 @@ h3.my-profession{
     height: 140px;
 }
 
-.contact .contact-form .btn{
+.button{
+    position: relative;
+    display: inline-block;
+    width: 180px;
     height: 50px;
     padding: 0 50px;
+    border-radius: 40px;
+    background: var(--skin-color);
+    color: #ffffff;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 35px;
+    white-space: nowrap;
+    border: none;
+    cursor: pointer;
 }
+
+.button:focus{
+    animation: morph 1.25s forwards;
+}
+
+.button > * {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.plane {
+    display: none;
+}
+
+.send, .button:focus span{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.button:focus .send{
+    animation: reveal 1s 1.25s forwards;
+}
+
+.button:focus .plane{
+    display: block;
+    animation: takeOff 1s forwards;
+}
+
+@keyframes reveal{
+    100%{
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@keyframes morph {
+    10%,
+    80%{
+        width: 50px;
+        border-radius: 50%;
+        background: var(--skin-color);
+        color: white;
+    }
+    100%{
+        background: green;
+        color: white;
+    }
+}
+
+@keyframes takeOff{
+    5%, 15%, 25%, 35%, 45% {
+        transform: translate(-47%, -50%);
+    }
+    10%, 20%, 30%, 40%, 50% {
+        transform: translate(-53%, -50%);
+    }
+    90%{
+        transform: translate(100px, -100px);
+    }
+    100%{
+        transform: translate(100px, -100px);
+    }
+}
+
 
 @media (max-width: 1199px){
     .aside{

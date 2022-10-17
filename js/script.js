@@ -1,7 +1,7 @@
 /* tipos de animações */
 
 var typed = new Typed(".typing",{
-    strings:[" ","Web Designer", "Graphic Designer", "Web Developer"],
+    strings:[" ","Engenheiro de Software", "Analista de Sistemas", "Desenvolvedor Web"],
     typeSpeed:100,
     BackSpeed:60,
     loop:true
