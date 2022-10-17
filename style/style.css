@@ -332,7 +332,7 @@ h3.my-profession{
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right: 60px;
-    bottom: -20px;
+    bottom: -10px;
 
 }
 
@@ -522,6 +522,7 @@ h3.my-profession{
     background-color: var(--skin-color);
 
 }
+
 
 .about .about-content .timeline .timeline-item .circle-dot{
     position: absolute;
@@ -856,7 +857,7 @@ h3.my-profession{
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 1040px){
     .contact .contact-info-item,
     .portifolio .portifolio-item,
     .service .service-item{
@@ -877,7 +878,7 @@ h3.my-profession{
     .contact .contact-info-item,
     .portifolio .portifolio-item,
     .service .service-item,
-    .about .about-content .exprerience,
+    .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skills,
     .about .about-content .personal-info{
